@@ -1,41 +1,49 @@
-body{
+body {
+
 	margin: 0;
-	font-family: perle;
+	font-family: 'Open Sans', sans-serif;
 }
 
-.logo{
+
+.logo { 
+
 	height: 100px;
-	margin-top: 70px;
 
-}
+ }
 
-.menu{
+.menu {
+
 	display: flex;
 	justify-content: space-between;
-	height: 30px;
-	padding: 50px;
-	
+  	align-items: center;
+  	padding: 50px 50px;
+  	height: 30px;
+
 }
 
-.bouton{
-    justify-content: space-around;
+.bouton {
+
+	justify-content: space-around;
 	width: 50%;
 	display: flex;
 	color: #1c278e;
 	margin: 10px;
 	text-decoration: none;
-}
 
-.contenant{
-	background-image: url();
+}
+.contenant {
+
+	background-image: url(https://trustmyscience.com/wp-content/uploads/2017/01/totalit%C3%A9-univers-observable-titre.jpg);
 	background-size: cover; 
   	height: 120vh;
   	margin: 0;
   	padding-bottom: 150px;
+ 	
 }
 
- .titre1 {  
-	color: red;
+
+.titre1 {  
+	color: white;
 	font-size: 100px;
 	text-align: center;
 	padding-top: 14%;
@@ -43,11 +51,113 @@ body{
  }
 
 .titre2 { 
-	color: black;
+	color: white;
 	font-size: 20px;
 	text-align: center;
 	margin-top: 120px;
 	padding-bottom: 50px;
+
+}
+
+.tellurique {
+
+	height: 170px;
+}
+
+.tellurique2 {
+
+	height: 205px;
+}
+
+.gazeuse {
+
+	height: 170px;
+}
+
+.glacées {
+
+	height: 145px;
+}
+
+.satellite1 {
+
+	height: 170px;
+}
+
+.satellite2 {
+
+	height: 205px;
+}
+
+
+
+#VOYAGE {
+
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: black;
+	padding: 100px;
+	font-size: 20px;
+}
+
+
+ 
+
 	
+#SPACEY {
+
+	padding-bottom: 150px;
+	margin-top: -150px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border: 50px 30px 50px 30px;
+	font-style: oblique;
+	font-size: 30px;
+}
+
+.titre {
+ 
+ 	padding: 50px;
+ 	padding-top: 80px;
+}
+
+.presentation {
+
+	padding: 40px;
+
+}
+
+#FLOTTE {
+	
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 50px;
+	padding-top: 150px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-color: white;
+	
+}
+
+#FLOTTE2 {
+ 	display: flex;
+	justify-content: space-around;
+	padding-bottom: 50px;
+	padding-top: 150px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-color: white;
+
+}
 
 
+img {
+
+	height: 100px;
+	border-color: white;
+	border-style: solid;
+}
